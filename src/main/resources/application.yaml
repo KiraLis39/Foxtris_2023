@@ -1,0 +1,19 @@
+logging:
+  level:
+    root: INFO
+    sun.awt.windows.WToolkit: INFO
+    sun.awt.windows.WDesktopProperties: INFO
+    java.awt.DefaultKeyboardFocusManager: INFO
+
+spring:
+  application:
+    name: Foxtris-2023
+  main:
+    allow-circular-references: false
+    lazy-initialization: false
+    allow-bean-definition-overriding: false
+
+  #datasource:
+  #  url: jdbc:postgresql://${DB_SERVER:localhost:5432}/${POSTGRES_DB:test_db}
+  #  username: ${POSTGRES_USER:postgres}
+  #  password: ${POSTGRES_PASSWORD:postgres}
